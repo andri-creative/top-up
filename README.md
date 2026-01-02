@@ -89,9 +89,13 @@ bun install
 
 4. **Setup Environment Variables** (Opsional)
 
-Jika ada file `.env.example`, copy dan rename menjadi `.env`:
+Proyek ini sudah menyediakan file `.env.example`. Copy file tersebut dan rename menjadi `.env`:
 
 ```bash
+# Untuk Windows (PowerShell)
+copy .env.example .env
+
+# Untuk Linux/Mac
 cp .env.example .env
 ```
 
@@ -127,11 +131,14 @@ top-up/
 │   └── globals.css        # Global styles
 ├── components/            # React components
 │   ├── ui/               # UI components (Radix UI)
+│   ├── provider/         # Context providers
+│   ├── Bener.tsx         # Helper component
 │   ├── CardHome.tsx      # Card komponen untuk game
 │   ├── Navbar.tsx        # Navigation bar
 │   └── TogelDrak.tsx     # Dark mode toggle
 ├── lib/                  # Utility functions
 ├── public/               # Static assets
+├── .env.example          # Environment variables template
 └── package.json          # Dependencies
 ```
 
