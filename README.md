@@ -58,8 +58,9 @@ Pastikan Anda telah menginstall:
 1. **Clone Repository**
 
 ```bash
-git clone https://github.com/username/top-up.git
-# Ganti 'username' dengan username GitHub Anda
+git clone <URL_REPOSITORY_ANDA>
+# Ganti <URL_REPOSITORY_ANDA> dengan URL repository GitHub Anda
+# Contoh: git clone https://github.com/username/top-up.git
 ```
 
 2. **Masuk ke Direktori Proyek**
